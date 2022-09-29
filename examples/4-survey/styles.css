@@ -16,7 +16,17 @@
 .result {
   margin-top: 4rem;
 }
-
+.title button{
+  background: transparent;
+  border: 1px solid var(--clr-primary-5);
+  padding: 0.5rem 0.75rem;
+  text-transform: capitalize;
+  margin-top: 2rem;
+}
+.title button:hover{
+  background: var(--clr-primary-5);
+  color: #fff;
+}
 ul {
   margin-top: 2rem;
   display: grid;
